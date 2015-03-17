@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## LoopBack Sample Application
 
 This example application was scaffolded with the help of `yo loopback`. Refer
@@ -280,3 +281,7 @@ When all models are defined, the example generator performs steps that you
 would do manually when working on a new application: add more dependencies to
 package.json, extend the models with custom behaviour, implement unit-tests,
 etc.
+=======
+# boardgameapp
+Board Game App for CISC474
+>>>>>>> 7c5d36bc99686e757e1480a0c9d0769920c7eefa
