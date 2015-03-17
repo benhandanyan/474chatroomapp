@@ -1,0 +1,13 @@
+{
+  "name": "JeapordyChat",
+  "version": "0.1.0",
+  "description": "Play jeopardy chat room style",
+  "main": "server.js",
+  "repository": "",
+  "author": "bhandy",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  }
+}

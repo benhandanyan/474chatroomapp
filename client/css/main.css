@@ -1,0 +1,31 @@
+.button {
+  height: 20px;
+  width: 200px;
+  background-color: navy;
+  color: white;
+  padding: 30px 6px 40px 6px;
+  margin-right : 1px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+tr{
+    display: inline-block;
+    width: 100%;
+}
+
+.button a {
+    text-decoration: none;
+    color:white;
+    font: bold 20px Arial;
+}
+
+.name {
+    min-width: 200px;
+}
+
+th {
+    padding: 0;
+}

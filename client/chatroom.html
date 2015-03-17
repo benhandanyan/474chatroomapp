@@ -1,0 +1,32 @@
+<div>
+  <div>
+    <h1>Welcome to Jeapordy! Use Alex and other users to guess the topic of this room</h1>
+  </div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th align="left" class="name">Name</th>
+          <th align="left" class="text">Text</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="msg in messages">
+          <td class="name" ng-bind="msg.name"></td>
+          <td class="text" ng-bind="msg.text"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div><br><br>
+      <form ng-submit="send()">
+        <div class="name">
+          <input type="text" ng-model="name" ng-change="setName()" placeholder="Your Name">
+        </div>
+        <div>
+          <input type="text" ng-model="text" placeholder="Message">
+          <input type="submit" value="Send" ng-disabled="!text">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
