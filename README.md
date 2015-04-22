@@ -282,6 +282,5 @@ would do manually when working on a new application: add more dependencies to
 package.json, extend the models with custom behaviour, implement unit-tests,
 etc.
 =======
-# boardgameapp
-Board Game App for CISC474
->>>>>>> 7c5d36bc99686e757e1480a0c9d0769920c7eefa
+# chatroomapp
+Chat ROom App for CISC474
