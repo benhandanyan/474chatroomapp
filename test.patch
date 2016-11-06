@@ -1,0 +1,16 @@
+diff --git a/client/index.html b/client/index.html
+index aa68648..26c34c1 100644
+--- a/client/index.html
++++ b/client/index.html
+@@ -4,11 +4,6 @@
+     <title>Jeopardy with Sockets</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/css/main.css">
+-    <style>
+-      body {
+-        padding-top: 60px;
+-      }
+-    </style>
+     <script src="/socket.io/socket.io.js"></script>
+     <script src="/js/jquery.min.js"></script>
+     <script src="/js/bootstrap.min.js"></script>
