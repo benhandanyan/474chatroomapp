@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## LoopBack Sample Application
 
 This example application was scaffolded with the help of `yo loopback`. Refer
@@ -281,6 +282,5 @@ When all models are defined, the example generator performs steps that you
 would do manually when working on a new application: add more dependencies to
 package.json, extend the models with custom behaviour, implement unit-tests,
 etc.
-=======
-# chatroomapp
-Chat ROom App for CISC474
+======
+>>>>>>> d105144ff798b5a0184e9cab2c9ef75273a2e044
